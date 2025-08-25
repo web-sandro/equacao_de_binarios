@@ -1,0 +1,1 @@
+# equacao_de_binarios
