@@ -117,3 +117,12 @@ function calcularBinario() {
     <strong>Resultado em binário:</strong> ${binResultado}
   `;
 }
+
+// Limpa campos
+function limparCampos() {
+  document.getElementById("bin1").value = "";
+  document.getElementById("bin2").value = "";
+  document.getElementById("operacao").value = "+";
+  document.getElementById("resultado").innerHTML = "";
+  document.getElementById("passos").innerHTML = "";
+}
