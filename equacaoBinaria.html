@@ -6,31 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equações Binárias</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f4f4f4;
-        }
-        img {
-            width: 300px;
-            cursor: pointer;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        img:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(0,0,0,0.3);
-        }
-    </style>
 </head>
 
 <body>
     <div class="container">
         <header>
+<<<<<<< HEAD:index.html
             <h1>litoralnortesoftware.com.br</h1>
             <h2>Calculadora de Equações Binárias</h2>
+=======
+            <div class="header">
+                <h1>litoralnortesoftware.co.br</h1>
+                <h2>Calculadora de Equações Binárias</h2>
+            </div>
+            <div class="limpar">
+                <button onclick="limparCampos()">Limpar</button>
+            </div>
+>>>>>>> 656671c4b2ed094dc69f9eb73bb3052f84e63b2f:equacaoBinaria.html
         </header>
         <main>
             <div class="container-flex">
@@ -51,9 +43,11 @@
                         <button onclick="calcularBinario()">Calcular</button>
                     </div>
                 </div>
-                <div>
-                    <div class="resultado" id="resultado">Resultado aparecerá aqui...</div><br>
-                    <div class="passos" id="passos">Passos detalhados aparecerão aqui...</div>
+                <div class="resultadoPassos">
+                    <h3>Resultado da equação</h3>
+                    <div class="resultado" id="resultado"></div>
+                    <h3>Passos da equação</h3>
+                    <div class="passos" id="passos"></div>
                 </div>
 
             </div>
